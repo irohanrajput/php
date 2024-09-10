@@ -22,10 +22,7 @@ class Fruit{
 
 }
 
-class new_class{
-    public $new_shitt;
-    public $another_shitt;
-}
+
 
 $apple = new Fruit();
 $banana = new Fruit();
@@ -42,4 +39,4 @@ echo $apple->get_name();
 // instance of 
 $orange = new Fruit();
 
-echo ($orange instanceof new_class);
+echo ($orange instanceof Fruit);
