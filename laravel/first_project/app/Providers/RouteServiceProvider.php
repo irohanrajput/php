@@ -28,12 +28,12 @@ class RouteServiceProvider extends ServiceProvider
 
         // Load the API routes from api.php
         Route::middleware('api')
-            ->prefix('api')
-            ->group(base_path('routes/api.php'));
+             ->prefix('api')
+             ->group(base_path('routes/api.php'));
 
         // Load web routes if any
         Route::middleware('web')
-            ->group(base_path('routes/web.php'));
+             ->group(base_path('routes/web.php'));
     }
 
     /**
